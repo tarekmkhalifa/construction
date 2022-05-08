@@ -1,0 +1,661 @@
+@font-face {
+    font-family: "Hammersmit";
+    src: url('../webfonts/Hammersmit/Hammersmit.woff2') format('woff2'), url('../webfonts/Hammersmit/HammersmithOne-Regular.woff') format('woff'), url('../webfonts/Hammersmit/HammersmithOne-Regular.ttf') format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+html {
+    font-family: "Hammersmit";
+    font-size: 16px;
+}
+.wrapper {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* -------------- Contact Section --------------*/
+#contact {
+    background-color: #FFCB0F;
+    padding: 10px 0;
+}
+#contact .wrapper article {
+    text-align: center;
+    padding-top: 10px;
+}
+#contact .wrapper article i {
+    display: block;
+    padding-bottom: 5px;
+}
+#contact .wrapper aside {
+    text-align: center;
+    padding: 5px;
+}
+#contact .wrapper aside i {
+    padding: 5px 0;
+    color: black
+}
+/* -------------- Navbar Section --------------*/
+#nav {
+    background-color: #222533;
+    color: #ccc;
+}
+#nav .wrapper article h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+#nav .wrapper article span {
+    color: #FAC810
+}
+#nav .wrapper article p {
+    text-align: center;
+    color: gray;
+    font-size: .8rem
+}
+#nav .wrapper ul {
+    text-align: center;
+    padding-top: 10px
+}
+#nav .wrapper ul li a {
+    color: #ccc;
+    display: inline-block;
+    padding: 10px;
+}
+#nav .wrapper ul li a:hover {
+    background-color: #FFCB0F;
+    color: white;
+}
+#nav .wrapper ul li i {
+    color: #FAC810;
+    padding-bottom: 10px;
+}
+/* -------------- Banner Section --------------*/
+#banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+#banner .wrapper {
+    color: white;
+}
+#banner .wrapper h4 {
+    text-align: center;
+    padding: 10px 0;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+#banner .wrapper h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+#banner .wrapper h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #FAC810;
+}
+#banner .wrapper p {
+    text-align: justify;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#banner .wrapper a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: thin solid #FAC810;
+    color: darkgoldenrod;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin-bottom: 20px;
+}
+/* -------------- About Section --------------*/
+#about {
+    background-color: white;
+}
+#about .wrapper article h1 {
+    font-size: 1.2rem;
+    color: #FFCB0F;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#about .wrapper article h4 {
+    color: #484848;
+    font-size: 1rem;
+    margin-top: 5px;
+    text-align: center;
+}
+#about .wrapper article p {
+    color: gray;
+    font-size: .9rem;
+    text-align: justify;
+    margin-top: 10px;
+}
+#about .wrapper article a {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    background-color: #FFCB0F;
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+#about .wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+/* -------------- Advantages Section --------------*/
+#advs {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/bg4.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 10px;
+}
+#advs .wrapper > h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #FFCB0F;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+#advs .wrapper > p {
+    font-size: .8rem;
+    color: white;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#advs .wrapper aside {
+    border-radius: 25px;
+    background-color: #00000080;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+#advs .wrapper aside div {
+    width: 75px;
+    height: 75px;
+    border: 1px solid #FFCB0F;
+    border-radius: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    top: -40px;
+}
+#advs .wrapper aside h1 {
+    text-align: center;
+    color: #FFCB0F;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+#advs .wrapper aside p {
+    text-align: center;
+    color: white;
+}
+/* -------------- Services Section --------------*/
+#services {
+    background-color: white;
+}
+#services h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.serv1 {
+    position: relative;
+    background: url("../images/card1.jpg") no-repeat center top;
+    background-size: cover;
+    max-width: 100%;
+    height: 350px;
+}
+.serv2 {
+    position: relative;
+    background: url("../images/card2.jpg") no-repeat center top;
+    background-size: cover;
+    max-width: 100%;
+    height: 350px;
+}
+.serv3 {
+    position: relative;
+    background: url("../images/card3.jpg") no-repeat center top;
+    background-size: cover;
+    max-width: 100%;
+    height: 350px;
+}
+.serv-s aside > p {
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    color: white;
+    background-color: #0009;
+    width: 100%;
+    text-align: center;
+}
+#services .wrapper p {
+    text-align: justify;
+    margin-top: 20px;
+}
+#services .wrapper a {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    background-color: #FFCB0F;
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+/* -------------- Portfolio Section --------------*/
+#portfolio {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.5)), url("../images/bg2.jpg") no-repeat center center;
+    background-size: cover;
+}
+#portfolio article h1 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+#portfolio article p {
+    color: white;
+    text-align: center;
+}
+#portfolio nav {
+    display: none
+}
+#portfolio aside {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#portfolio nav span:hover {
+    background-color: black;
+    cursor: pointer;
+    border-radius: 25px;
+}
+#portfolio aside img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+/* -------------- Customer Reviews Section --------------*/
+#reviews h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#reviews .wrapper > p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#reviews .customers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+#reviews .customers p {
+    padding: 50px 50px 50px 70px;
+    background: #E5E5E5 url("../images/blockquote2.png") no-repeat 20px 25px;
+}
+#reviews .customers img:last-of-type {
+    border-radius: 50%;
+}
+#reviews .customers h4 {
+    text-transform: uppercase;
+}
+/* -------------- Form Section --------------*/
+#questions {
+    background-color: #FEDB5D;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-bottom: 40px solid #646972;
+}
+#questions article h3 {
+    color: #7B7B7D;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+#questions article h1 {
+    color: #7B7B7D;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+#questions form {
+    align-items: center;
+    margin-bottom: 30px;
+}
+#questions form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 5px;
+}
+#questions form button {
+    width: 100%;
+    padding: 5px;
+    background-color: #73757E;
+    color: white;
+    cursor: pointer;
+}
+/* -------------- Footer Section --------------*/
+#footer {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url("../images/bg2.jpg");
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#footer .wrapper article {
+    text-align: center;
+    color: white;
+}
+#footer .wrapper article h2 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+#footer .wrapper article h1 {
+    color: #FFCB0F;
+    font-style: italic;
+    font-size: 2.8rem;
+}
+#footer .wrapper article:first-of-type > a {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+    color: black;
+}
+#footer .wrapper #links i {
+    padding-right: 10px
+}
+#footer .wrapper #links a {
+    color: gray;
+    display: block;
+    padding: 5px;
+}
+#posts span {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    border: thin solid gray;
+    font-size: .8rem;
+    margin-right: 5px;
+    color: gray;
+}
+#posts a {
+    color: gray;
+}
+#loc h2 {
+    margin-bottom: 10px;
+}
+#loc a {
+    display: block;
+    margin-bottom: 5px;
+    color: gray;
+}
+footer {
+    background-color: #1A1C27;
+    padding: 30px;
+}
+footer p {
+    text-align: center;
+    color: white;
+}
+footer span {
+    color: #FFCB0F;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 500px) {
+    .wrapper {
+        max-width: 480px;
+    }
+
+    #nav ul {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .wrapper {
+        max-width: 720px;
+    }
+    #contact .wrapper article i {
+        display: inline-block;
+        width: 30%;
+        padding-bottom: 5px;
+    }
+    #nav .wrapper ul li {
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+    #banner .wrapper h4 {
+        font-size: 2rem
+    }
+    #banner .wrapper h2 {
+        font-size: 2.5rem
+    }
+    #banner .wrapper h1 {
+        font-size: 3rem;
+    }
+    #banner .wrapper {
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #advs .wrapper aside {
+        width: 40%;
+    }
+    #footer .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #footer .wrapper:first-of-type article {
+        width: 100%
+    }
+    #footer .wrapper #links {
+        width: 45%
+    }
+    #footer .wrapper #posts {
+        width: 45%
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .wrapper {
+        max-width: 940px;
+    }
+    #nav .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+    }
+    #nav .wrapper article h1 {
+        text-align: left;
+    }
+    #nav .wrapper article p {
+        text-align: left;
+    }
+    #banner {
+        height: 80vh;
+    }
+    #banner .wrapper {
+        height: 750px;
+    }
+    #banner .wrapper h4 {
+        font-size: 3rem
+    }
+    #banner .wrapper h2 {
+        font-size: 3.5rem
+    }
+    #banner .wrapper h1 {
+        font-size: 5rem;
+    }
+    #banner .wrapper p {
+        font-size: 1.8rem;
+        margin-bottom: 50px
+    }
+    #banner .wrapper a {
+        font-size: 1.5rem;
+        margin-right: 10px
+    }
+    #about .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    #about .wrapper article {
+        width: 40%;
+        margin-top: 75px;
+    }
+    #about .wrapper article h1 {
+        font-size: 2.3rem;
+        text-align: left;
+    }
+    #about .wrapper article h4 {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    #about .wrapper article a {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #advs .wrapper aside {
+        width: 20%;
+    }
+    #services .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .serv-s {
+        width: 30%
+    }
+    #portfolio nav {
+        display: inline-block;
+        margin-top: 20px;
+    }
+    #portfolio nav span {
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        text-transform: uppercase;
+    }
+    #portfolio .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #portfolio .wrapper aside {
+        display: flex;
+        justify-content: space-between;
+    }
+    #portfolio .wrapper aside > div {
+        width: 48%;
+    }
+    #portfolio .wrapper aside .coll {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #portfolio .wrapper aside .coll img {
+        width: 48%
+    }
+    #reviews .wrapper aside {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #reviews .customers {
+        width: 32%
+    }
+    #questions form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #questions form input {
+        width: 47%;
+        margin-bottom: 5px;
+        padding: 10px 0 10px 10px;
+    }
+    #questions form input:last-of-type {
+        width: 72%;
+        padding: 10px 0 10px 10px;
+    }
+    #questions form button {
+        width: 23%;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        padding: 10px;
+    }
+    #footer .wrapper {
+        align-items: flex-start;
+    }
+    #footer .wrapper:first-of-type article {
+        width: 23%
+    }
+    #footer .wrapper #links {
+        width: 23%
+    }
+    #footer .wrapper #posts {
+        width: 23%
+    }
+    #footer .wrapper #contact {
+        width: 23%
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .wrapper {
+        max-width: 1140px;
+    }
+    #contact .wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #contact .wrapper article i {
+        display: inline-block;
+        width: auto;
+        padding-right: 15px;
+    }
+    #contact .wrapper aside i {
+        padding: 5px 5px;
+    }
+}
