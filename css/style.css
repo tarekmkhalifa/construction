@@ -21,7 +21,6 @@ html {
     margin-left: auto;
 }
 
-<style>
   #up {
     background-color: yellow;
     border: solid 1px black;
@@ -32,8 +31,6 @@ html {
     cursor: pointer;
     display: none;
   }
-
-</style>
 
 /* -------------- Contact Section --------------*/
 #contact {
